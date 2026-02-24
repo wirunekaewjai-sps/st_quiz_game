@@ -1,0 +1,22 @@
+[
+  {
+    "title": "What is the capital of France?",
+    "choices": {
+      "A": "Paris",
+      "B": "London",
+      "C": "Berlin",
+      "D": "Madrid"
+    },
+    "answer": "A"
+  },
+  {
+    "title": "What is the capital of Spain?",
+    "choices": {
+      "A": "Paris",
+      "B": "London",
+      "C": "Berlin",
+      "D": "Madrid"
+    },
+    "answer": "D"
+  }
+]

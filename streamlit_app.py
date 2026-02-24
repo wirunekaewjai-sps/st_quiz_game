@@ -4,7 +4,6 @@ import uuid
 
 import streamlit as st
 
-# Write directly to the app
 st.title(body="QUIZ GAME", anchor=False, text_alignment="center")
 
 if "user_id" not in st.session_state:
@@ -12,7 +11,6 @@ if "user_id" not in st.session_state:
 
 st.write(f"UUID: {st.session_state.user_id}")
 
-# 1. เริ่มจับเวลาเมื่อเปิดแอปหรือเริ่มเกม
 if "start_time" not in st.session_state:
     st.session_state.start_time = time.time()
 
