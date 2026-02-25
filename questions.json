@@ -228,5 +228,105 @@
       "D": "Montreal"
     },
     "answer": "C"
+  },
+  {
+    "title": "What is the currency of Japan?",
+    "choices": {
+      "A": "Yuan",
+      "B": "Won",
+      "C": "Yen",
+      "D": "Ringgit"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Who was the first person to walk on the moon?",
+    "choices": {
+      "A": "Buzz Aldrin",
+      "B": "Neil Armstrong",
+      "C": "Yuri Gagarin",
+      "D": "John Glenn"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "What is the largest desert in the world?",
+    "choices": {
+      "A": "Sahara Desert",
+      "B": "Arabian Desert",
+      "C": "Gobi Desert",
+      "D": "Antarctica"
+    },
+    "answer": "D"
+  },
+  {
+    "title": "Which instrument has 88 keys?",
+    "choices": {
+      "A": "Guitar",
+      "B": "Violin",
+      "C": "Piano",
+      "D": "Drums"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "What is the capital of Italy?",
+    "choices": {
+      "A": "Venice",
+      "B": "Milan",
+      "C": "Rome",
+      "D": "Florence"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "How many bones are in the human body?",
+    "choices": {
+      "A": "106",
+      "B": "206",
+      "C": "306",
+      "D": "406"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "Which country gifted the Statue of Liberty to the USA?",
+    "choices": {
+      "A": "England",
+      "B": "Spain",
+      "C": "France",
+      "D": "Germany"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "What is the hardest natural substance on Earth?",
+    "choices": {
+      "A": "Gold",
+      "B": "Iron",
+      "C": "Diamond",
+      "D": "Platinum"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Which river is the longest in the world?",
+    "choices": {
+      "A": "Amazon River",
+      "B": "Mississippi River",
+      "C": "Yangtze River",
+      "D": "Nile River"
+    },
+    "answer": "D"
+  },
+  {
+    "title": "What year was the first iPhone released?",
+    "choices": {
+      "A": "2005",
+      "B": "2006",
+      "C": "2007",
+      "D": "2008"
+    },
+    "answer": "C"
   }
 ]
