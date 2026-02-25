@@ -18,5 +18,215 @@
       "D": "Madrid"
     },
     "answer": "D"
+  },
+  {
+    "title": "What is the largest planet in our solar system?",
+    "choices": {
+      "A": "Mars",
+      "B": "Jupiter",
+      "C": "Saturn",
+      "D": "Earth"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "Who painted the Mona Lisa?",
+    "choices": {
+      "A": "Vincent van Gogh",
+      "B": "Pablo Picasso",
+      "C": "Leonardo da Vinci",
+      "D": "Michelangelo"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "What is the chemical symbol for gold?",
+    "choices": {
+      "A": "Go",
+      "B": "Gd",
+      "C": "Au",
+      "D": "Ag"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Which country is known as the Land of the Rising Sun?",
+    "choices": {
+      "A": "China",
+      "B": "Korea",
+      "C": "Japan",
+      "D": "Thailand"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "What is the smallest prime number?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Who wrote 'Romeo and Juliet'?",
+    "choices": {
+      "A": "Charles Dickens",
+      "B": "William Shakespeare",
+      "C": "Jane Austen",
+      "D": "Mark Twain"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "What is the capital of Japan?",
+    "choices": {
+      "A": "Seoul",
+      "B": "Beijing",
+      "C": "Tokyo",
+      "D": "Bangkok"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Which element has the atomic number 1?",
+    "choices": {
+      "A": "Helium",
+      "B": "Hydrogen",
+      "C": "Lithium",
+      "D": "Carbon"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "What year did World War II end?",
+    "choices": {
+      "A": "1943",
+      "B": "1944",
+      "C": "1945",
+      "D": "1946"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Which ocean is the largest?",
+    "choices": {
+      "A": "Atlantic Ocean",
+      "B": "Indian Ocean",
+      "C": "Arctic Ocean",
+      "D": "Pacific Ocean"
+    },
+    "answer": "D"
+  },
+  {
+    "title": "Who discovered gravity?",
+    "choices": {
+      "A": "Albert Einstein",
+      "B": "Isaac Newton",
+      "C": "Galileo Galilei",
+      "D": "Stephen Hawking"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "What is the capital of Australia?",
+    "choices": {
+      "A": "Sydney",
+      "B": "Melbourne",
+      "C": "Canberra",
+      "D": "Brisbane"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Which programming language is known as the 'language of the web'?",
+    "choices": {
+      "A": "Python",
+      "B": "Java",
+      "C": "JavaScript",
+      "D": "C++"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "What is the fastest land animal?",
+    "choices": {
+      "A": "Lion",
+      "B": "Cheetah",
+      "C": "Leopard",
+      "D": "Tiger"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "How many continents are there?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "What is the capital of Brazil?",
+    "choices": {
+      "A": "Rio de Janeiro",
+      "B": "São Paulo",
+      "C": "Brasília",
+      "D": "Salvador"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "Which planet is known as the Red Planet?",
+    "choices": {
+      "A": "Venus",
+      "B": "Mars",
+      "C": "Jupiter",
+      "D": "Saturn"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "Who invented the telephone?",
+    "choices": {
+      "A": "Thomas Edison",
+      "B": "Alexander Graham Bell",
+      "C": "Nikola Tesla",
+      "D": "Benjamin Franklin"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "What is the largest mammal in the world?",
+    "choices": {
+      "A": "African Elephant",
+      "B": "Blue Whale",
+      "C": "Giraffe",
+      "D": "Polar Bear"
+    },
+    "answer": "B"
+  },
+  {
+    "title": "Which country is home to the kangaroo?",
+    "choices": {
+      "A": "New Zealand",
+      "B": "South Africa",
+      "C": "Australia",
+      "D": "Argentina"
+    },
+    "answer": "C"
+  },
+  {
+    "title": "What is the capital of Canada?",
+    "choices": {
+      "A": "Toronto",
+      "B": "Vancouver",
+      "C": "Ottawa",
+      "D": "Montreal"
+    },
+    "answer": "C"
   }
 ]
