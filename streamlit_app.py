@@ -82,6 +82,6 @@ with tab1:
                 st.rerun()
 
 with tab2:
-    st.write("this is leaderboard")
-    # df = session.sql("SELECT * FROM QUIZ_GAME.PUBLIC.LEADERBOARD LIMIT 10").collect()
-    # st.dataframe(df)
+    # st.write("this is leaderboard")
+    df = session.sql("SELECT * FROM QUIZ_GAME.PUBLIC.LEADERBOARD LIMIT 10").collect()
+    st.dataframe(df)
