@@ -82,5 +82,6 @@ with tab1:
                 st.rerun()
 
 with tab2:
-    df = session.sql("SELECT USER_ID, SCORE, ROUND(USAGE, 2) AS ELAPSED_TIME_SECONDS, CREATED_AT FROM QUIZ_GAME.PUBLIC.SCORES ORDER BY SCORE DESC, USAGE ASC, CREATED_AT ASC LIMIT 10").collect()
-    st.dataframe(df)
+    st.write("this is leaderboard")
+    # df = session.sql("SELECT * FROM QUIZ_GAME.PUBLIC.LEADERBOARD LIMIT 10").collect()
+    # st.dataframe(df)
