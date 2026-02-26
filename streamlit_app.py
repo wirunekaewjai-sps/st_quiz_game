@@ -82,5 +82,5 @@ with tab1:
                 st.rerun()
 
 with tab2:
-    df = session.sql("SELECT * FROM QUIZ_GAME.PUBLIC.LEADERBOARD LIMIT 10")
+    df = session.sql("SELECT * FROM QUIZ_GAME.PUBLIC.LEADERBOARD LIMIT 10").collect()
     st.dataframe(df)
