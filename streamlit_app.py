@@ -29,7 +29,7 @@ tab1, tab2 = st.tabs([
 with tab1:
     if "step" not in st.session_state:
         if st.button("Start"):
-            st.session_state.questions = session.sql("SELECT TITLE, CHOICES, ANSWER FROM QUIZ_GAME.PUBLIC.QUESTIONS ORDER BY RANDOM() LIMIT 5").to_pandas()
+            st.session_state.questions = session.sql("SELECT TITLE, CHOICES, ANSWER FROM QUIZ_GAME.PUBLIC.QUESTION_LIST ORDER BY RANDOM() LIMIT 5").to_pandas()
             st.session_state.start_time = time.time()
             st.session_state.step = 0
             st.session_state.score = 0
@@ -48,7 +48,7 @@ with tab1:
         st.write(f"⏱️ Elapsed: {elapsed_time:.2f} seconds")
 
         if st.button("Play again"):
-            st.session_state.questions = session.sql("SELECT TITLE, CHOICES, ANSWER FROM QUIZ_GAME.PUBLIC.QUESTIONS ORDER BY RANDOM() LIMIT 5").to_pandas()
+            st.session_state.questions = session.sql("SELECT TITLE, CHOICES, ANSWER FROM QUIZ_GAME.PUBLIC.QUESTION_LIST ORDER BY RANDOM() LIMIT 5").to_pandas()
             st.session_state.start_time = time.time()
             st.session_state.step = 0
             st.session_state.score = 0
