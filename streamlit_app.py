@@ -57,7 +57,7 @@ with tab1:
     elif st.session_state.step >= len(st.session_state.questions):
         elapsed_time = time.time() - st.session_state.start_time
 
-        session.sql(f"INSERT INTO QUIZ_GAME.PUBLIC.SCORES (USER_ID, SCORE, USAGE) VALUES ('{st.session_state.user_id}', '{st.session_state.score}', {elapsed_time})").collect_nowait()
+        session.sql(f"INSERT INTO QUIZ_GAME.PUBLIC.SCORES (USER_ID, SCORE, USAGE) VALUES ('{st.session_state.user_id}', '{st.session_state.score}', {elapsed_time})").collect()
 
         st.session_state.elapsed = elapsed_time
         st.session_state.ended = True
